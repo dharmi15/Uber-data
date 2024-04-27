@@ -1,0 +1,27 @@
+# Installing Python and pip 
+sudo apt-get update
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+sudo python3 get-pip.py
+
+
+# Installing Mage
+sudo pip3 install mage-ai
+
+#Start mage
+mage start project name
+
+# Installing Pandas
+sudo pip3 install pandas
+
+# Installing Google Cloud Library
+sudo pip3 install google-cloud
+
+sudo pip3 install google-cloud-bigquery
